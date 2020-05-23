@@ -1,0 +1,14 @@
+.input-ordering{
+	width: 30px; 
+	text-align: center
+}
+
+#adminForm th a {
+	color: #333;
+	display: block;
+}
+
+html, body
+{
+	overflow-y:hidden !important;
+}

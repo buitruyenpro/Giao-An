@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b5125fe-1c8a-488d-a874-79eedb9859db" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/Admin/Module.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-35">
+              <caret line="106" column="58" selection-start-line="106" selection-start-column="58" selection-end-line="106" selection-end-column="58" />
+              <folding>
+                <element signature="e#23#77#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module/Admin/config/module.config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>logout()</find>
+      <find>print_r</find>
+      <find>getPer</find>
+      <find>getPermission</find>
+      <find>NoticeController</find>
+      <find>identity()</find>
+      <find>$this-&gt;identity()</find>
+      <find>MyUser</find>
+      <find>$linkLogin</find>
+      <find>UserController</find>
+      <find>activeAction</find>
+      <find>'/user/active/:id/code/:code[/]'</find>
+      <find>'/user/active/:id/code/:code[/]</find>
+      <find>Admin\Model\UserTable'</find>
+      <find>$this-&gt;getTable()</find>
+      <find>UserTable</find>
+      <find>UserTable extends AbstractTableGateway</find>
+      <find>UserTable extends AbstractTableGateway {</find>
+      <find>goLogin</find>
+      <find>AuthenticateService</find>
+      <find>ActionController</find>
+      <find>$userInfo</find>
+      <find>logoutAction</find>
+      <find>isAllowed</find>
+      <find>Acl</find>
+      <find>Mai</find>
+      <find>default</find>
+      <find>display_not</find>
+      <find>Cart:</find>
+      <find>linkCart</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\bookonline\public\template\frontend\html</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/library/Zendvn/Paginator/Paginator.php" />
+        <option value="$PROJECT_DIR$/module/Shop/Module.php" />
+        <option value="$PROJECT_DIR$/module/Admin/view/admin/group/form.phtml" />
+        <option value="$PROJECT_DIR$/module/Admin/src/Admin/Model/CategoryTable.php" />
+        <option value="$PROJECT_DIR$/public/template/frontend/html/content_home.php" />
+        <option value="$PROJECT_DIR$/library/Zendvn/View/Helper/CmsBreadcrumb.php" />
+        <option value="$PROJECT_DIR$/public/.htaccess" />
+        <option value="$PROJECT_DIR$/config/application.config.php" />
+        <option value="$PROJECT_DIR$/module/Shop/src/Shop/Controller/TaiKhoanController.php" />
+        <option value="$PROJECT_DIR$/jm2BhbN_library/Zendvn/Controller/ActionController.php" />
+        <option value="$PROJECT_DIR$/jm2BhbN_module/Shop/src/Shop/Controller/KichHoatController.php" />
+        <option value="$PROJECT_DIR$/jm2BhbN_module/Shop/config/module.config.php" />
+        <option value="$PROJECT_DIR$/module/Shop/config/module.config.php" />
+        <option value="$PROJECT_DIR$/jm2BhbN_module/Shop/src/Shop/Controller/UserController.php" />
+        <option value="$PROJECT_DIR$/jm2BhbN_module/Shop/config/router.config.php" />
+        <option value="$PROJECT_DIR$/module/Shop/config/router.config.php" />
+        <option value="$PROJECT_DIR$/jm2BhbN_module/Shop/src/Shop/Model/UserTable.php" />
+        <option value="$PROJECT_DIR$/module/Admin/src/Admin/Model/UserTable.php" />
+        <option value="$PROJECT_DIR$/module/Shop/src/Shop/Model/UserTable.php" />
+        <option value="$PROJECT_DIR$/jm2BhbN_config/autoload/mail.global.php" />
+        <option value="$PROJECT_DIR$/config/autoload/mail.global.php" />
+        <option value="$PROJECT_DIR$/jm2BhbN_library/Zendvn/System/Info.php" />
+        <option value="$PROJECT_DIR$/library/Zendvn/Controller/ActionController.php" />
+        <option value="$PROJECT_DIR$/jm2BhbN_module/Shop/src/Shop/Controller/IndexController.php" />
+        <option value="$PROJECT_DIR$/library/Zendvn/Mail/Mail.php" />
+        <option value="$PROJECT_DIR$/jm2BhbN_library/Zendvn/Mail/Mail.php" />
+        <option value="$PROJECT_DIR$/jm2BhbN_config/autoload/global.php" />
+        <option value="$PROJECT_DIR$/config/autoload/global.php" />
+        <option value="$PROJECT_DIR$/public/define.php" />
+        <option value="$PROJECT_DIR$/module/Shop/src/Shop/Controller/UserController.php" />
+        <option value="$PROJECT_DIR$/library/Zendvn/View/Helper/Url/LinkCart.php" />
+        <option value="$PROJECT_DIR$/module/Admin/Module.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-114" />
+    <option name="y" value="3" />
+    <option name="width" value="897" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bookonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookonline" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookonline" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookonline" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bookonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bookonline" type="462c0819:PsiDirectoryNode" />
+              <item name="module" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../quanlygiaoan" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\bookonline\jm2BhbN_module\Shop\src\Shop\Controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b5125fe-1c8a-488d-a874-79eedb9859db" name="Default Changelist" comment="" />
+      <created>1563812650808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563812650808</updated>
+      <workItem from="1563812652107" duration="4362000" />
+      <workItem from="1563858627454" duration="1148000" />
+      <workItem from="1563882561450" duration="4924000" />
+      <workItem from="1563959334110" duration="2768000" />
+      <workItem from="1564028612158" duration="4887000" />
+      <workItem from="1564126543529" duration="1802000" />
+      <workItem from="1564139327002" duration="4293000" />
+      <workItem from="1564244546981" duration="1400000" />
+      <workItem from="1564295362010" duration="4195000" />
+      <workItem from="1564391262413" duration="3326000" />
+      <workItem from="1564452072328" duration="9966000" />
+      <workItem from="1564564062812" duration="2323000" />
+      <workItem from="1564567335403" duration="160000" />
+      <workItem from="1564567506620" duration="716000" />
+      <workItem from="1564572016271" duration="30000" />
+      <workItem from="1564582406857" duration="4263000" />
+      <workItem from="1564620884771" duration="80000" />
+      <workItem from="1564631951827" duration="2580000" />
+      <workItem from="1564707899152" duration="6879000" />
+      <workItem from="1564787261539" duration="424000" />
+      <workItem from="1582119940860" duration="14097000" />
+      <workItem from="1582145392833" duration="321000" />
+      <workItem from="1582555461716" duration="871000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="79134000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21406959" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/module/Shop/view/frontend-form-register.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#6#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Shop/view/shop/user/history.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1355">
+          <folding>
+            <element signature="n#style#0;n#b#0;n#h3#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jm2BhbN_config/autoload/zenddevelopertools.local.php" />
+    <entry file="file://$PROJECT_DIR$/jm2BhbN_config/autoload/mail.global.php" />
+    <entry file="file://$PROJECT_DIR$/library/Zend/Loader/AutoloaderFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/autoload/mail.global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3542">
+          <caret line="161" column="51" selection-start-line="161" selection-start-column="51" selection-end-line="161" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Shop/view/shop/user/view-cart.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="102" column="6" selection-start-line="102" selection-start-column="6" selection-end-line="102" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Zend/Authentication/AuthenticationService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1408">
+          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jm2BhbN_library/Zend/Authentication/AuthenticationService.php" />
+    <entry file="file://$PROJECT_DIR$/module/Shop/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="67" column="44" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jm2BhbN_module/Shop/Module.php" />
+    <entry file="file://$PROJECT_DIR$/library/Zendvn/System/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jm2BhbN_library/Zendvn/System/Authenticate.php" />
+    <entry file="file://$PROJECT_DIR$/jm2BhbN_module/Shop/src/Shop/Controller/NoticeController.php" />
+    <entry file="file://$PROJECT_DIR$/library/Zend/Permissions/Acl/AclInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Zendvn/System/Acl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Zendvn/System/Info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jm2BhbN_library/Zendvn/System/Info.php" />
+    <entry file="file://$PROJECT_DIR$/library/Zendvn/Controller/ActionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Shop/src/Shop/Model/UserTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-439">
+          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Shop/src/Shop/Model/PermissionTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Zendvn/Mail/Mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jm2BhbN_library/Zendvn/Mail/Mail.php" />
+    <entry file="file://$PROJECT_DIR$/jm2BhbN_module/Shop/src/Shop/Controller/IndexController.php" />
+    <entry file="file://$PROJECT_DIR$/jm2BhbN_module/Shop/src/Shop/Controller/BookController.php" />
+    <entry file="file://$PROJECT_DIR$/jm2BhbN_module/Shop/src/Shop/Controller/UserController.php" />
+    <entry file="file://$PROJECT_DIR$/jm2BhbN_module/Shop/view/shop/book/index.phtml" />
+    <entry file="file://$PROJECT_DIR$/jm2BhbN_module/Admin/config/module.config.php" />
+    <entry file="file://$PROJECT_DIR$/jm2BhbN_config/application.config.php" />
+    <entry file="file://$PROJECT_DIR$/jm2BhbN_config/autoload/global.php" />
+    <entry file="file://$PROJECT_DIR$/config/application.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/autoload/global.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.buildpath">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Shop/config/router.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2068">
+          <caret line="94" column="25" lean-forward="true" selection-start-line="94" selection-start-column="25" selection-end-line="94" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/define.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Shop/src/Shop/Controller/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="83" column="24" lean-forward="true" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/Rtheadtitle/config/rt-headtitle.global.php.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Shop/view/shop/user/index.phtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Admin/view/admin/index/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#sup#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Shop/view/shop/index/index.phtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Admin/view/admin/group/index.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="105" column="12" selection-start-line="105" selection-start-column="12" selection-end-line="105" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Shop/view/shop/index/login.phtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/template/backend/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="119" column="7" selection-start-line="119" selection-start-column="7" selection-end-line="119" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/template/frontend/html/header_cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/template/backend/main.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Zendvn/View/Helper/Url/LinkCart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Admin/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="106" column="58" selection-start-line="106" selection-start-column="58" selection-end-line="106" selection-end-column="58" />
+          <folding>
+            <element signature="e#23#77#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module/Admin/config/module.config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

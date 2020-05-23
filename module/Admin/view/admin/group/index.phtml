@@ -1,0 +1,116 @@
+<?php 
+	$ssFilter			= $this->ssFilter;
+
+	// CREATE INPUT HIDDEN
+	$inputHiddenOrder	= $this->zvnFormHidden('order', $ssFilter['order']);
+	$inputHiddenOrderBy	= $this->zvnFormHidden('order_by', $ssFilter['order_by']);
+	$inputStatusID		= $this->zvnFormHidden('status_id', null);
+	$inputStatusValue	= $this->zvnFormHidden('status_value', null);
+	
+	$strInputHidden		= $inputHiddenOrder . $inputHiddenOrderBy . $inputStatusID . $inputStatusValue;
+
+	// CREATE SELECTBOX
+	$arrKeywordType 	= array( 'name'	=> 'Search by NAME', 'id' => 'Search by ID', 'ordering' => 'Search by ORDERING', 'all' => 'Search by ALL');
+	$slbKeywordType 	= $this->zvnFormSelect('filter_keyword_type', null , $arrKeywordType, $ssFilter['filter_keyword_type']);
+	$slbFilterStatus	= $this->zvnFormSelect('filter_status', '-- Select a status --', array('active' => 'Active', 'inactive' => 'Inactive'), $this->ssFilter['filter_status']);
+	
+	// CREATE INPUT
+	$inputKeyword		= $this->zvnFormInput('filter_keyword_value', $ssFilter['filter_keyword_value'], array('class' => 'form-control input-sm'));
+	
+	// CREATE BUTTON
+	$btnClear			= $this->zvnFormButton('btn-clear', 'btn-clear', 'Clear', array('class' => 'btn-default'));
+	$btnSearch			= $this->zvnFormButton('btn-go', 'btn-go', 'Search!', array('class' => 'btn-primary'));
+	
+	// DATA ITEM
+	$xhtmlItems	= '';
+	if(!empty($this->items)){
+		foreach ($this->items as $item) {
+			$class		= $this->cycle(array('odd','even'))->next();
+			$id			= $item->id;
+			$name		= $item->name;
+			$created	= date('H:i:s d-m-Y', strtotime($item->created));
+			$createdBy	= $item->created_by;
+			$status		= $this->cmsButtonStatus($id, $item->status);
+			$ordering	= $this->zvnFormInput('ordering['.$id.']', $item->ordering, array('class' => 'input-ordering'));
+			$cid		= $this->zvnFormInput('cid[]', $id, array('type' => 'checkbox'));
+			$linkEdit	= $this->url('adminRoute/default', array('controller' => 'group', 'action' => 'edit', 'id' => $id));
+			$xhtmlItems .= '<tr class="'.$class.'">
+								<td class="small-col">'.$cid.'</td>
+								<td><a href="'.$linkEdit.'">'.$name.'</a></td>
+								<td>'.$created.'</td>
+								<td>'.$createdBy.'</td>
+								<td>'.$ordering.'</td></td>
+								<td>'.$status.'</td>
+								<td>'.$id.'</td>
+							</tr>';
+		}
+	}
+	
+	// LINK FORM SUBMIT
+	$linkFormSubmit	= $this->url('adminRoute/default', array('controller' => 'group', 'action' => 'filter'));
+	$linkAdd	= $this->url('adminRoute/default', array('controller' => 'group', 'action' => 'add'));
+?>
+
+<!-- BUTTON -->
+<div class="row">
+	<div class="text-center">
+		<a data-type="show-total" class="btn btn-app" href="#" onclick="javascript:changeOrdering();"><i class="fa fa-refresh"></i>Update</a> 
+		<a class="btn btn-app" href="<?php echo $linkAdd;?>"><i class="fa fa-plus-square-o"></i> Add</a> 
+		<a data-type="show-total" class="btn btn-app" href="#" onclick="javascript:changeMultiStatus(1);"><i class="fa fa-check-circle-o"></i> Active</a>
+		<a data-type="show-total" class="btn btn-app" href="#" onclick="javascript:changeMultiStatus(0);"><i class="fa fa-circle-o"></i> InActive</a> 
+		<a data-type="show-total" class="btn btn-app" href="#" onclick="javascript:deleteItem();"><i class="fa fa-minus-square-o"></i> Delete</a>
+	</div>
+</div>
+
+<!-- NOTICE -->
+<?php echo $this->flashMessenger()->render();?>
+
+<div class="box box-info">	
+<form name="adminForm" id="adminForm" action="<?php echo $linkFormSubmit;?>" method="post">
+	<!-- FILTER -->
+	<div class="box-header" style="padding-top: 10px;">
+		<!-- FILTER KEYWORD -->
+		<div class="col-xs-6">
+			<?php
+				echo $this->partial('area_search.phtml', array( 'slbKeywordType' => $slbKeywordType,  'inputKeyword' => $inputKeyword, 'strButton'	=> $btnClear . $btnSearch));
+			?>
+		</div>
+		<!-- FILTER STATUS -->
+		<div class="col-xs-6">
+			<div class="dataTables_filter pull-right">
+				<?php echo $slbFilterStatus; ?>
+			</div>
+		</div>
+	</div>
+	
+	<div class="box-body table-responsive">
+		<div class="dataTables_wrapper" role="grid">
+			<table class="table table-bordered table-striped dataTable text-center">
+				<!-- COLUMN TITLE -->
+				<thead>
+					<tr role="row">
+						<th class="small-col"><input type="checkbox" id="check-all" /></th>
+						<?php echo $this->cmsLinkSort('Name', 'name', $ssFilter); ?>
+						<?php echo $this->cmsLinkSort('Created', 'created', $ssFilter); ?>
+						<?php echo $this->cmsLinkSort('Created by', 'created_by', $ssFilter); ?>
+						<?php echo $this->cmsLinkSort('Ordering', 'ordering', $ssFilter); ?>
+						<?php echo $this->cmsLinkSort('Status', 'status', $ssFilter); ?>
+						<?php echo $this->cmsLinkSort('ID', 'id', $ssFilter); ?>
+					</tr>
+				</thead>
+
+				<!-- CONTENT TABLE -->
+				<tbody><?php echo $xhtmlItems;?></tbody>
+			</table>
+			
+			<!-- PAGINATION -->
+			<?php
+				$currentURL = $this->url ( 'adminRoute/default', array ('controller' => 'group','action' => 'index' ));
+				echo $this->paginationControl ( $this->paginator, 'sliding', 'paginator.phtml', array ('currentURL' => $currentURL ));
+			?>
+		</div>
+	</div>
+	<!-- INPUT HIDDEN -->
+	<?php echo $strInputHidden; ?>
+</form>
+</div>
